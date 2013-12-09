@@ -1,0 +1,16 @@
+Answers Week 1 Homework
+1)  d
+2)  a
+3)  d
+	A - Second ball is black
+	B - First ball is black
+	P(A|B) = P(A intersection B)/ P(B)
+			= (1/2) / ((1/2)*1 + 1/2*1/2) 
+			= 2/3
+4)	b
+	(1 - 0.55)^10
+5)	c
+	1 - (1 - (1 - 0.55)^10)^1000
+6)	e
+	all are 13
+7)	
