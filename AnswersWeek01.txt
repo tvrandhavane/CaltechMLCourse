@@ -13,4 +13,5 @@ Answers Week 1 Homework
 	1 - (1 - (1 - 0.55)^10)^1000
 6)	e
 	all are 13
-7)	
+7)	Average Iterations = 3912/1000 = 3.912	
+8)	Probability = 200123675/1000000*1000 = 0.200123675	

@@ -10,8 +10,8 @@ def generateTargetFunction() :
     targetFunction = range(3)
     point1 = generateRandomPair()
     point2 = generateRandomPair()
-    targetFunction[0] = (point1[1] - point2[1]) / (point1[0] - point2[0])
-    targetFunction[1] = (point1[0]*point2[1] - point2[0]*point1[1]) /  (point1[0] - point2[0])
+    targetFunction[0] = (point1[0]*point2[1] - point2[0]*point1[1]) /  (point1[0] - point2[0])    
+    targetFunction[1] = (point1[1] - point2[1]) / (point1[0] - point2[0])
     targetFunction[2] = -1
     return targetFunction
 
@@ -27,7 +27,7 @@ def mainFunction() :
     
     #set up variables
     runs = 1000
-    N = 10
+    N = 100
     totalIterationCount = 0
     totalProbability = 0
     for i in range(runs) :
@@ -58,7 +58,6 @@ def mainFunction() :
             x = X[i]
             temp = evaluatef(g, x)
             if temp != Y[i] :
-                i = 0;
                 iterationCount = iterationCount + 1
                 print "Iteration Number:", iterationCount
                 if Y[i] == 0 :
@@ -68,7 +67,8 @@ def mainFunction() :
                 else :
                     g[0] = g[0] + 1
                     g[1] = g[1] + x[0]
-                    g[2] = g[2] + x[1]            
+                    g[2] = g[2] + x[1]
+                i = 0;            
         print "PerceptronFunction =", g[0] ,"," , g[1], "," , g[2]
         #calculate the probability of g
         count = 0
