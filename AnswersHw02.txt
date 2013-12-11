@@ -1,0 +1,9 @@
+Answers Homework 2
+1)  numin = 37667/1000000 = 0.037667
+2)  d
+	hoeffding inequality
+	P[|nu - mu| > eps] <= 2 exp(-2 * eps^2 * N)
+3)	e
+4)	b
+	1 - lambda + (2*lambda - 1) * mu
+5)	48.78835002/1000 = 0.04878835002

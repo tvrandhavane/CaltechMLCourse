@@ -46,7 +46,7 @@ def mainFunction():
 sumMinNu = 0
 sumNu1 = 0
 sumNuRand = 0
-for i in 100000:
+for i in range(100000):
     print "Run Number:", i
     Nus = mainFunction()
     sumMinNu = sumMinNu + Nus[2]

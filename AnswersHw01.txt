@@ -15,3 +15,5 @@ Answers Week 1 Homework
 	all are 13
 7)	Average Iterations = 3912/1000 = 3.912	
 8)	Probability = 200123675/1000000*1000 = 0.200123675	
+9)	Average Iterations = 14088/1000 = 14.088
+10) Probability = 85743877/1000000*1000 = 0.085743877
