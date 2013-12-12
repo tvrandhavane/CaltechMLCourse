@@ -1,5 +1,5 @@
 '''
-Created on Dec 11, 2013
+Created on Dec 12, 2013
 
 @author: Tanmay
 '''
@@ -55,30 +55,34 @@ def calculateEin(X, Y, g, size):
     sum = sum / size
     return sum
 
-def experiment(N):
-    f = generateTargetFunction()
-    print "f", f    
-    X = generateX(N)
-    Y = generateY(X, f, N)
+def linearRegression(f, X, Y, N):
     XDagger = getXDagger(X)
     g = np.dot(XDagger, Y).T
-    print "g", g
-    Xout = generateX(1000)
-    count = 0
-    YEst = generateY(Xout, g, 1000)
-    Yout = generateY(Xout, f, 1000)
-    for i in range(1000):
-        if YEst[i] != Yout[i]:
-            count = count + 1
-    return count
+    return g
     
 def mainFunction():
     runs = 1000
-    N = 100
-    sumEout = 0
+    N = 10
+    sumIterationCount = 0
     for i in range(runs):
         print "run :", i  
-        sumEout = sumEout + experiment(N)
-    print "Total Eout =", sumEout
+        f = generateTargetFunction()
+        X = generateX(N)
+        Y = generateY(X, f, N) 
+        
+        #perceptron
+        g = linearRegression(f, X, Y, N)
+        YEst = generateY(X, g, N)
+        iterationCount = 1
+        print "Iteration Number:", iterationCount
+        for i in range(N):
+            x = X[i]
+            if YEst[i] != Y[i] :
+                iterationCount = iterationCount + 1
+                print "Iteration Number:", iterationCount
+                g[0] = g[0] + Y[i]*X[i]
+                i = 0;
+        sumIterationCount = sumIterationCount + iterationCount
+    print "Total Iterations =", sumIterationCount
     
 mainFunction()
