@@ -1,0 +1,42 @@
+Answers Homework 4
+1)	d
+	eps = sqrt(8/N * ln (4*m_H(2N)/delta))
+	
+	eps = 0.05
+	delta = 0.05
+	m_H(N) = N^dvc = N ^ 10
+	m_H(2N) = (2N) ^ 10
+ 
+ 2) d
+ 	0.632174915201
+	0.342306939936
+	0.223598271319
+	0.215106492677
+	
+3)	c
+	eps cannot be ignored.
+	solve quadratic for eps in case c and d
+	
+4)	e
+	1.43106156745
+	
+5)	b
+	0.269273474086
+
+6)	a
+	0.235960631495
+	
+7)	b
+	A = 0.756041566676
+	B = 0.502678830598
+	C = 2.26713988927
+	D = 18.5784006682
+	E = 167.629867571
+	
+8)	c
+
+9) 	b
+	can shatter upto N = min vc in the best case
+	
+10)	e
+	can shatter N = max vc for any overlap
