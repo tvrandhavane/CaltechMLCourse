@@ -1,0 +1,42 @@
+Answers Homework 4
+1)	c
+	sigma^2 (1 - (d+1)/N) > 0.008
+	==>	N > 45
+	
+2)	d
+	consider x2^2 = 0
+		then w0~ + w1~ * x1^2 follows
+		++++-------------------------------------------------------
+		as x1^2 grows w0~ + w1~ * x1^2 becomes negative, ==> w1~ < 0
+	consider x1^2 = k > c > 0
+		then (w0~ + k) + w2~ * x2^2 follows
+		----+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		as x2^2 grows (w0~ + k) + w2~ * x2^2 becomes positive, ==> w2~ > 0
+
+3)	c
+	all till order 4
+
+4)	e
+
+5)	d
+	Number of iterations= 10
+	Final u = 0.0447362903978
+	Final v = 0.0239587140991
+	errVal = 1.20868339442e-15
+
+6)	e
+
+7)	a
+	Number of iterations= 15
+	Final u = 6.29707589931
+	Final v = -2.85230695408
+	errVal = 0.139813791996
+
+8)	d
+	0.10254359402
+
+9)	a
+	346
+	
+10)	e	
+		
