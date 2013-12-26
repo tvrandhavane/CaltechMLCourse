@@ -1,0 +1,39 @@
+Answers Homework 6
+1)	b
+
+2)	a
+	In-sample error = 0.0285714285714
+	Out-sample error = 0.084
+	
+3)	d
+	In-sample error = 0.0285714285714
+	Out-sample error = 0.08
+
+4)	e
+	In-sample error = 0.371428571429
+	Out-sample error = 0.436
+	
+5)	d
+	k = 2, Out-sample error = 0.228
+	k = 1, Out-sample error = 0.124
+	k = 0, Out-sample error = 0.092	
+	k = -1, Out-sample error = 0.056
+	k = -2, Out-sample error = 0.084
+
+6)	b
+
+7)	c
+
+8)	d
+	L = 2
+	compute all x: 6*3 + 4*1 = 22
+	compute all delta: 3
+	update the weights:	6*3 + 4*1 = 22
+	
+9)	a
+	all the hidden layers contain 1 unit each
+	10 + 1 + ... + 1 (36 units) = 46
+	
+10)	e
+	22 in the first hidden layer
+	14 in the second hidden layer

@@ -1,4 +1,4 @@
-Answers Homework 4
+Answers Homework 5
 1)	c
 	sigma^2 (1 - (d+1)/N) > 0.008
 	==>	N > 45
