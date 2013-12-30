@@ -1,0 +1,47 @@
+Answers Homework 7
+1)	d
+	Error 1= 0.3
+	Error 2= 0.5
+	Error 3= 0.2
+	Error 4= 0.0
+	Error 5= 0.1
+
+2)	e
+	Error 1= 0.42
+	Error 2= 0.416
+	Error 3= 0.188
+	Error 4= 0.084
+	Error 5= 0.072
+	
+3)	d
+	Error 1= 0.48
+	Error 2= 0.4
+	Error 3= 0.36
+	Error 4= 0.0
+	Error 5= 0.16
+
+4)	d
+	Error 1= 0.472
+	Error 2= 0.412
+	Error 3= 0.348
+	Error 4= 0.104
+	Error 5= 0.172
+
+5)	0.1, 0.1
+	Error 4= 0.084
+	Error 4= 0.104
+
+6)	d
+
+7)	c
+	solve on paper take vertical distance from the line
+	
+8)	c
+	63.0
+
+9)	d
+	81.7
+	
+10) b
+	2.999
+	clf = svm.SVC( kernel='linear', C=1.0E6 )
