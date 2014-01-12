@@ -1,0 +1,101 @@
+Answers Homework Final
+1)	e
+	order 1 : 2
+	order 2	: 3
+	..
+	..
+	order 10:	11
+	total = 2 + 3 + ... + 11 = 65
+
+2)	d
+	The averaging is always that of the actual output values returned by the hypothesis g(x), not of the parameters in g.
+
+3)	d
+
+4)	d
+
+5)	a
+
+6)	b
+	a)	inverse is true
+	b)	true
+	d)	augmented error is minimized
+
+7)	d
+	Error 5 = 0.0762584007681
+	Error 6 = 0.0910711836511
+	Error 7 = 0.0884652311068
+	Error 8 = 0.0743382252092
+	Error 9 = 0.0883280757098
+
+8)	b
+	Error 0 = 0.106626806178
+	Error 1 = 0.02192326856
+	Error 2 = 0.0986547085202
+	Error 3 = 0.0827105132038
+	Error 4 = 0.0996512207275
+
+9)	e
+	With transform:
+	Error 0 = 0.106626806178
+	Error 1 = 0.02192326856
+	Error 2 = 0.0986547085202
+	Error 3 = 0.0827105132038
+	Error 4 = 0.0996512207275
+	Error 5 = 0.0792227204783
+	Error 6 = 0.0847035376183
+	Error 7 = 0.0732436472347
+	Error 8 = 0.0827105132038
+	Error 9 = 0.0881913303438
+
+	Without transform:
+	Error 0 = 0.109312851461
+	Error 1 = 0.0152242490742
+	Error 2 = 0.100260595254
+	Error 3 = 0.0902482512687
+	Error 4 = 0.0894253188863
+	Error 5 = 0.0762584007681
+	Error 6 = 0.0910711836511
+	Error 7 = 0.0884652311068
+	Error 8 = 0.0743382252092
+	Error 9 = 0.0883280757098
+
+10)	a
+	Lambda 0.01 = [0.004484304932735426, 0.02830188679245283]
+	Lambda 1 = [0.005124919923126201, 0.025943396226415096]
+
+11)	c
+	eout = (g - g1 + g - g2)^2 / 4 = eout1/4 + eout2/4 + 2(g - g1)(g - g2)
+
+12)	c
+	z1	z2	y
+	-3	2	-1
+	0   -1  -1
+	0   3   -1
+	1   2   1
+	3   -3  1
+	3   5   1
+	3   5   1
+
+13)	c
+	5
+
+14)	a
+	0.021 ==> 2.1%
+
+15)	e
+	0.778118609407 ==> 77.8%
+
+16)	d
+	0.64542651593 ==> 64.5%
+
+17)	d
+	[217, 170, 194, 419]
+
+18)	c
+	[126, 176, 563, 135]
+
+19)	a
+	0.073 ==> 7.3%
+	
+20)	b
